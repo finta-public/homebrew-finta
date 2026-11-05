@@ -3,27 +3,27 @@
 class FintaCli < Formula
   desc "Finta from your terminal: your company's books, reports and scripts"
   homepage "https://www.finta.com"
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      url "https://registry.npmjs.org/@fintahq/cli-darwin-arm64/-/cli-darwin-arm64-0.1.1.tgz"
-      sha256 "0d7267ed98e03a57098813e9fb8fcb1b74330c793b87656238c5e37cc0a8b5ec"
+      url "https://registry.npmjs.org/@fintahq/cli-darwin-arm64/-/cli-darwin-arm64-0.1.2.tgz"
+      sha256 "f058cdbbd294612b3c24a32ec0aa0bd4f77c3f252c1d438396173fe7468d4644"
     end
     on_intel do
-      url "https://registry.npmjs.org/@fintahq/cli-darwin-x64/-/cli-darwin-x64-0.1.1.tgz"
-      sha256 "f830fe65eac10dd42acd443eb81ae3c1adf7cc77eafb0653c5d8881e8b345bf1"
+      url "https://registry.npmjs.org/@fintahq/cli-darwin-x64/-/cli-darwin-x64-0.1.2.tgz"
+      sha256 "4f776e0d483319038a77a236c817d6f00a261099985f3e61b263baf06d343d1f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://registry.npmjs.org/@fintahq/cli-linux-arm64/-/cli-linux-arm64-0.1.1.tgz"
-      sha256 "45d6dc7b0c62911b612d863389bec6a2a06fc994b8fd4143cdd4fad7a822f5b3"
+      url "https://registry.npmjs.org/@fintahq/cli-linux-arm64/-/cli-linux-arm64-0.1.2.tgz"
+      sha256 "93fd2b6d6d69cc0ba8593ff45d3165c98dc993af3e7318cd3a183e57e1fedec0"
     end
     on_intel do
-      url "https://registry.npmjs.org/@fintahq/cli-linux-x64/-/cli-linux-x64-0.1.1.tgz"
-      sha256 "5f9c3ed644d4a200fecaca624ba5019ac43a76f84df1e005362087c377669240"
+      url "https://registry.npmjs.org/@fintahq/cli-linux-x64/-/cli-linux-x64-0.1.2.tgz"
+      sha256 "37e3830c543adefb108404a2accf3221f6b31a7eca832240925cc3303110ffa1"
     end
   end
 
